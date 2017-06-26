@@ -6,11 +6,9 @@ to control a LED connected to pin 13 in the arduino.
 First you need to download this library 
 
 https://github.com/z3t0/Arduino-IRremote
-
-and follow the instructions .
+and follow the instructions in the link .
 
 Then you have to read the values sent by your own remote
-
 using the same code just commit the lines 21-34.
 
 Upload the sketch to your arduino . 
