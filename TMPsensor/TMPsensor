@@ -18,7 +18,6 @@ void loop() {
   Serial.print(", degrees C: ");
   float temperature = (voltage - .5) * 100;
   Serial.println(temperature);
-
   
   if (temperature < baselineTemp) {
     digitalWrite(2, LOW);
